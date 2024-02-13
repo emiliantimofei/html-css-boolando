@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Nunito", sans-serif;
+}
+img{
+    width: 100%;
+}
+
+#content{
+    display: grid;
+    max-width: 1200px;
+    margin: 0 auto;
+    grid-template-columns:repeat(5, 1fr);
+    grid-template-rows:repeat(1fr 2fr 2fr 2fr 1fr);
+}
+.one,.two,.three,.four,.five{
+    background-color: orange;
+}
+.no-dec{
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+
+.two{
+    color: white;
+    text-align: left;
+}
+.three{
+    text-align: center;
+}
+.four{
+    text-align: right;
+    color: white;
+}
+.nested{
+    display: grid;
+    grid-template-rows: 8fr 1fr 1fr 1fr;
+}
+.product{
+    background-image: url(../img/1.webp);
+    max-width: 300px;
+    background-position: cover;
+}
+
