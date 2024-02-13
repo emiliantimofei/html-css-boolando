@@ -10,6 +10,11 @@ body{
 img{
     width: 100%;
 }
+/*header*/
+.logo{
+    max-width: 200px;
+}
+
 /*containers*/
 .container{
     max-width: 1200px;
@@ -20,6 +25,7 @@ img{
     text-align: center;
     margin: 0 auto;
 }
+
 /*flex*/
 .d-flex{
     display: flex;
@@ -30,15 +36,20 @@ img{
 .wrap{
     flex-wrap: wrap;
 }
-.txt-align{
-    text-align: left;
-}
 .align{
     align-items: center;
     align-content: center;
 }
-.logo{
-    max-width: 200px;
+.down{
+    align-items: flex-end;
+}
+/*main*/
+.box-img{
+    background-image: url(../img/1.webp);
+    background-size: cover;
+    min-height: 600px;
+    width: 300px;
+    background-position: center;
 }
 
 
@@ -69,3 +80,8 @@ img{
 
 
 
+
+
+.txt-align{
+    text-align: left;
+}
