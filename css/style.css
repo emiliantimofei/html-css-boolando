@@ -22,6 +22,11 @@ a{
     color: white;
     text-decoration: none;
 }
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 /*containers*/
 .container{
     max-width: 1200px;
