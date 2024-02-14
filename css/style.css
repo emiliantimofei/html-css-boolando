@@ -3,30 +3,47 @@
     margin: 0;
     padding: 0;
 }
-
 body{
     font-family: "Nunito", sans-serif;
 }
 img{
     width: 100%;
 }
+
 /*header*/
 .logo{
     max-width: 200px;
 }
-
+.bg-nav{
+    background-color: var(--color-orange);
+    color: var(--color-white);
+}
+a{
+    color: white;
+    text-decoration: none;
+}
 /*containers*/
 .container{
     max-width: 1200px;
     margin: 0 auto;
 }
 .small-c{
-    max-width: 900px;
+    max-width: 1000px;
     text-align: center;
     margin: 0 auto;
 }
-
+/*colors*/
+:root{
+    --color-orange: orange;
+    --color-red: red;
+    --color-green: green;
+    --color-white: white;
+    --color-black: black;
+}
 /*flex*/
+.gap{
+    gap: 8px;
+}
 .d-flex{
     display: flex;
 }
@@ -44,47 +61,89 @@ img{
     align-items: flex-end;
 }
 /*main*/
+
 .box-img{
-    background-image: url(../img/1.webp);
     background-size: cover;
-    min-height: 600px;
-    width: 300px;
+    min-height: 500px;
+    width: 320px;
     background-position: center;
+}
+.bg-1{
+    background-image: url(../img/1.webp);
+}
+.bg-2{
+    background-image: url(../img/2.webp);
+}
+.bg-3{
+    background-image: url(../img/3.webp);
+}
+.bg-4{
+    background-image: url(../img/4.webp);
+}
+.bg-5{
+    background-image: url(../img/5.webp);
+}
+.bg-6{
+    background-image: url(../img/6.webp);
+}
+.margin-discount{
+    margin-bottom: 15px;
+    padding: 2px;
+    color: var(--color-white);
+}
+.red{
+    background-color: var(--color-red);
+    margin-right: 3px;
+}
+.red-txt{
+    color: var(--color-red);
+    font-weight: bold;
+}
+.decoration-txt{
+    text-decoration: line-through;
+}
+.green.margin-discount{
+    margin-left: 0;
+}
+.green{
+    background-color: var(--color-green);
+    margin-left: 3px;
+}
+.margin-heart{
+    margin-top: 12px;
+    background-color: var(--color-white);
+    padding: 5px;
+}
+.txt-align{
+    text-align: left;
+}
+.txt-align-r{
+    text-align: right;
 }
 
 /*footer*/
+.txt-foot-color{
+    color: var(--color-white);
+}
+.bg-foot{
+    background-color: var(--color-black);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.txt-align{
-    text-align: left;
+.bg-1:hover{
+    background-image: url(../img/1b.webp);
+}
+.bg-2:hover{
+    background-image: url(../img/2b.webp);
+}
+.bg-3:hover{
+    background-image: url(../img/3b.webp);
+}
+.bg-4:hover{
+    background-image: url(../img/4b.webp);
+}
+.bg-5:hover{
+    background-image: url(../img/5b.webp);
+}
+.bg-6:hover{
+    background-image: url(../img/6b.webp);
 }
